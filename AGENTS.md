@@ -1,10 +1,10 @@
 # Universal Skill Router & Auto-Activation Rules
 
-The workstation hosts a curated suite of **4,089 expert skills**.
+The workstation hosts a curated suite of **4,096 expert skills**.
 
-## 🛡️ Core 22 Mandatory Always-Active Skills (Enforced on Every Operation)
+## 🛡️ Core 24 Mandatory Always-Active Skills (Enforced on Every Operation)
 
-Regardless of the user prompt or domain, the following 22 foundational skills are **PERMANENTLY ACTIVE**:
+Regardless of the user prompt or domain, the following 24 foundational skills are **PERMANENTLY ACTIVE**:
 1. `token-budget-advisor`: Real-time context budget calculation & prompt condensation.
 2. `compact-conversation`: Intelligent compression of conversation history without losing critical decisions.
 3. `ai-session-optimizer`: Minimizes turn roundtrips and optimizes latency.
@@ -27,6 +27,8 @@ Regardless of the user prompt or domain, the following 22 foundational skills ar
 20. `written-gates-generation`: Clear milestones and measurable acceptance criteria.
 21. `inferssd`: Memory-mapped offloading for heavy local AI and data tasks.
 22. `typegpu`: Type-safe hardware execution standards.
+23. `continuous-learning`: Instinct memory from user feedback & error corrections so the agent never repeats mistakes.
+24. `planning-with-files`: Crash-proof persistent file-based planning and state checkpoints (TASK.md/plan.md).
 
 ## Mandatory Dynamic Routing Protocol
 

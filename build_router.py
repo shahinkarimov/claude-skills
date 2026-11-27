@@ -52,12 +52,6 @@ CATEGORIES = {
         "game", "godot", "unity", "unreal", "phaser", "pixi", "pygame", "bevy",
         "shader", "tilemap", "ecs", "3d", "blender", "pixelfx", "typegpu"
     ],
-    "🧠 Core System, Memory & Optimization Guardrails": [
-        "token-budget", "compact-conversation", "ai-session", "prompt-caching",
-        "clean-code", "memory-safety", "file-system-memory", "error-handling",
-        "verification-loop", "zero-hallucination", "code-simplification",
-        "session-guard", "universal-skill-router", "gateguard", "locked-references"
-    ],
     "🔬 Data Science, ML & Specialized Engineering": [
         "ml", "data", "spark", "dbt", "dataform", "bigframes", "analytics",
         "eval", "vector", "rag", "notebook", "statistics", "biology", "genom",
@@ -65,19 +59,20 @@ CATEGORIES = {
     ]
 }
 
-CORE_22_SET = {
+CORE_24_SET = {
     "token-budget-advisor", "compact-conversation", "ai-session-optimizer",
     "prompt-caching-strategy", "clean-code", "anti-slop-ui",
     "memory-safety-patterns", "file-system-memory", "error-handling-patterns",
     "verification-loop", "gateguard", "zero-hallucination-coder",
     "code-simplification", "security-best-practices", "universal-skill-router",
     "session-guard", "work_efficiently", "work-efficiently", "git-safety-net",
-    "locked-references", "written-gates-generation", "inferssd", "typegpu"
+    "locked-references", "written-gates-generation", "inferssd", "typegpu",
+    "continuous-learning", "planning-with-files"
 }
 
 def classify(name: str, desc: str) -> str:
-    if name in CORE_22_SET or name.replace("_", "-") in CORE_22_SET:
-        return "🧠 Core 22 Mandatory Guardrails & System Optimization"
+    if name in CORE_24_SET or name.replace("_", "-") in CORE_24_SET:
+        return "🧠 Core 24 Mandatory Always-Active Guardrails"
     combined = (name + " " + desc).lower()
     for cat, keywords in CATEGORIES.items():
         for kw in keywords:

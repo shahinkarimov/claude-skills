@@ -534,6 +534,12 @@
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/agent-sort/SKILL.md"
   },
   {
+    "name": "agent-swarm",
+    "description": "Autonomous agent-swarm orchestration for big multi-part work of any kind - software, game development, business operations, content, research. Use it when a task is multi-part, spans many files, assets or sources, or would go faster in parallel (features with several pieces, sweeps over many items, ",
+    "category": "🤖 AI Agents, Swarms & Orchestration",
+    "path": "C:/Users/shahin.karimov/.gemini/config/skills/agent-swarm/SKILL.md"
+  },
+  {
     "name": "agent-tool-builder",
     "description": "Tools are how AI agents interact with the world. A well-designed tool is the difference between an agent that works and one that hallucinates, fails silently, or costs 10x more tokens than necessary.  This skill covers tool design from schema to error handling. JSON Schema best practices, descriptio",
     "category": "🤖 AI Agents, Swarms & Orchestration",
@@ -684,6 +690,12 @@
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/ai-connectors/SKILL.md"
   },
   {
+    "name": "ai-council-suite",
+    "description": "Strategic AI decision-making suite: 5-model peer review voting council, adversarial plan hardening, Claude CEO + OpenCode executor hierarchy, and BMAD agile role collaboration.",
+    "category": "⚙️ Specialized Engineering & Utilities",
+    "path": "C:/Users/shahin.karimov/.gemini/config/skills/ai-council-suite/SKILL.md"
+  },
+  {
     "name": "ai-debt-detector",
     "description": "Use after generating code, after accepting AI suggestions, or when reviewing AI-written modules. Also use when code works but feels brittle, when error handling seems thin, when orphaned resources or missing cleanup are suspected, or when the agent claims done but hidden debt may exist. Catches the ",
     "category": "🤖 AI Agents, Swarms & Orchestration",
@@ -700,6 +712,12 @@
     "description": "Machine learning models used to process and analyze video frames to differentiate between static lights, moving aircraft, and other objects.",
     "category": "🎬 Media, Video, Audio & Image AI",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/ai-detection-models/SKILL.md"
+  },
+  {
+    "name": "ai-dev-guide",
+    "description": "Start, run or resume the master agent that builds a new project planned by dev-plan, strictly by its spec, through M0, the risk slice, soft launch and gates to a defined finish. Use when the owner says \"start the build\", \"resume the build\", \"build the new app\" or \"dev-build\", or when dev-plan ends w",
+    "category": "🤖 AI Agents, Swarms & Orchestration",
+    "path": "C:/Users/shahin.karimov/.gemini/config/skills/ai-dev-guide/SKILL.md"
   },
   {
     "name": "ai-directory-submitter",
@@ -818,7 +836,7 @@
   {
     "name": "ai-session-optimizer",
     "description": "Claude Code and LLM session timing tricks, 5-hour window maximization, peak-hours routing, and cost-reduction heuristics.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/ai-session-optimizer/SKILL.md"
   },
   {
@@ -1148,7 +1166,7 @@
   {
     "name": "anti-slop-ui",
     "description": "Strict aesthetic and architectural rules to purge generic AI-slop UI, clichéd purple gradients, bloated cards, and meaningless decorative cards from web apps.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/anti-slop-ui/SKILL.md"
   },
   {
@@ -3728,7 +3746,7 @@
   {
     "name": "clean-code",
     "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/clean-code/SKILL.md"
   },
   {
@@ -4022,7 +4040,7 @@
   {
     "name": "code-simplification",
     "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. Use when asked to simplify, clean up, or reduce the nes",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/code-simplification/SKILL.md"
   },
   {
@@ -4280,7 +4298,7 @@
   {
     "name": "compact-conversation",
     "description": "Structured state compaction and context checkpointing protocol that condenses long chat histories into 5-7 decision bullets with active variables.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/compact-conversation/SKILL.md"
   },
   {
@@ -4718,7 +4736,7 @@
   {
     "name": "continuous-learning",
     "description": "[DEPRECATED - use continuous-learning-v2] Legacy v1 stop-hook skill extractor. v2 is a strict superset with instinct-based, project-scoped, hook-reliable learning. Do not invoke v1: when continuous learning, session learning, or pattern extraction is requested, route to continuous-learning-v2 instea",
-    "category": "⚙️ Specialized Engineering & Utilities",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/continuous-learning/SKILL.md"
   },
   {
@@ -7562,7 +7580,7 @@
   {
     "name": "error-handling-patterns",
     "description": "Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error handling, designing APIs, or improving application reliability.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/error-handling-patterns/SKILL.md"
   },
   {
@@ -8150,7 +8168,7 @@
   {
     "name": "file-system-memory",
     "description": "Structured file-based external memory architecture for AI agents, replacing fragile vector databases with human-inspectable markdown and JSON files.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/file-system-memory/SKILL.md"
   },
   {
@@ -8894,7 +8912,7 @@
   {
     "name": "gateguard",
     "description": "PreToolUse fact-forcing gate that denies the first Edit/Write/Bash (including MultiEdit and NotebookEdit) attempt until the agent presents concrete facts (importers, data schemas, verbatim user instruction), then allows retry; A/B-tested at +2.25 quality points. Use when enabling or configuring the ",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/gateguard/SKILL.md"
   },
   {
@@ -9320,7 +9338,7 @@
   {
     "name": "git-safety-net",
     "description": "Audits, preserves and recovers local Git state before cleanup: unpushed or wrong-branch commits, dirty worktrees, duplicate clones, stashes, dangling commits, squash-merge uncertainty. Use when the user fears lost work, wants to recover a commit, asks if a branch is actually merged, asks whether a b",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/git-safety-net/SKILL.md"
   },
   {
@@ -11318,7 +11336,7 @@
   {
     "name": "inferssd",
     "description": "Run massive Mixture-of-Experts (MoE) LLMs (DeepSeek-V4, Qwen3.6-35B, Muse-Spark) directly from fast NVMe SSD storage with low RAM/VRAM footprint via expert dynamic streaming.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/inferssd/SKILL.md"
   },
   {
@@ -12764,7 +12782,7 @@
   {
     "name": "locked-references",
     "description": "Multi-shot visual consistency framework for AI video and image models using invariant reference anchors, seed preservation, and locked attribute sets.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/locked-references/SKILL.md"
   },
   {
@@ -13598,7 +13616,7 @@
   {
     "name": "memory-safety-patterns",
     "description": "Implement memory-safe programming with RAII, ownership, smart pointers, and resource management across Rust, C++, and C. Use when writing safe systems code, managing resources, or preventing memory bugs.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/memory-safety-patterns/SKILL.md"
   },
   {
@@ -16634,7 +16652,7 @@
   {
     "name": "planning-with-files",
     "description": "Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls.",
-    "category": "⚙️ Specialized Engineering & Utilities",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/planning-with-files/SKILL.md"
   },
   {
@@ -17468,7 +17486,7 @@
   {
     "name": "prompt-caching-strategy",
     "description": "Optimize LLM prompt caching hit rate to reduce API costs and improve latency. Analyzes prompt structure, identifies cacheable vs non-cacheable content, and recommends restructuring to maximize cache reuse. TRIGGER when: user says \"prompt cache\", \"cache hit rate\", \"reduce LLM cost\", \"optimize token u",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/prompt-caching-strategy/SKILL.md"
   },
   {
@@ -19766,7 +19784,7 @@
   {
     "name": "security-best-practices",
     "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/types",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/security-best-practices/SKILL.md"
   },
   {
@@ -20006,7 +20024,7 @@
   {
     "name": "session-guard",
     "description": "Use when working on complex multi-step tasks, when a session is getting long (40+ tool calls), when the agent starts ignoring rules it followed earlier, when conventions drift, when output quality seems to degrade, or after any context compaction event. Prevents long-session corruption AND context c",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/session-guard/SKILL.md"
   },
   {
@@ -22304,7 +22322,7 @@
   {
     "name": "token-budget-advisor",
     "description": "Offer a choice of response depth (25%/50%/75%/100%) with token estimates before answering, then answer at that level. Use when the user asks to control response length or token budget, such as 'token budget', 'short version', 'brief answer', 'respuesta corta vs larga', 'cuántos tokens', 'ahorrar tok",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/token-budget-advisor/SKILL.md"
   },
   {
@@ -22622,7 +22640,7 @@
   {
     "name": "typegpu",
     "description": "TypeScript-first type-safe WebGPU development library for writing typed WGSL compute shaders, render pipelines, and buffer layouts directly in TypeScript.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/typegpu/SKILL.md"
   },
   {
@@ -22988,7 +23006,7 @@
   {
     "name": "universal-skill-router",
     "description": "Master Router and Orchestrator for all 5,101+ local skills across Web, Mobile, AI Agents, Desktop Automation, DevOps, Security, UI/UX, Data Science, and GameDev. Automatically identifies, routes, and activates the exact specialized skill(s) for any user request from the Master Skill Catalog (skills_",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/universal-skill-router/SKILL.md"
   },
   {
@@ -23438,7 +23456,7 @@
   {
     "name": "verification-loop",
     "description": "Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, security grep, and diff review — then produce a PASS/FAIL verification report. Use when verifying work after completing a feature or refactor, before creating a PR, or when quality gates must",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/verification-loop/SKILL.md"
   },
   {
@@ -24188,7 +24206,7 @@
   {
     "name": "work-efficiently",
     "description": "Mandatory core discipline for parallel tool execution, zero roundtrip latency, batch operations, and single-turn verification.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/work-efficiently/SKILL.md"
   },
   {
@@ -24200,7 +24218,7 @@
   {
     "name": "work_efficiently",
     "description": "Mandatory core discipline for parallel tool execution, zero roundtrip latency, batch operations, and single-turn verification.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/work_efficiently/SKILL.md"
   },
   {
@@ -24374,7 +24392,7 @@
   {
     "name": "written-gates-generation",
     "description": "Pre-generation evaluation gates, test specs, and validation checkpoints that block flawed generations before expensive model inference runs.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/written-gates-generation/SKILL.md"
   },
   {
@@ -24524,7 +24542,7 @@
   {
     "name": "zero-hallucination-coder",
     "description": "Use before high-stakes or multi-file coding (auth, databases, migrations), or when asked to plan carefully and avoid invented APIs. Runs discuss, map, decompose, execute and verify, checking every import and API exists. Not for trivial edits.",
-    "category": "🧠 Core 22 Mandatory Guardrails & System Optimization",
+    "category": "🧠 Core 24 Mandatory Always-Active Guardrails",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/zero-hallucination-coder/SKILL.md"
   },
   {

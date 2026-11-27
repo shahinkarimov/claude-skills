@@ -40,36 +40,32 @@ read_file(Path: ".../skills/<skill-name>/SKILL.md")
 
 ---
 
-## 🛡️ Core 22 Mandatory Always-Active Skills (Hər Əməliyyatda Məcburi Qaydalar)
+## 🛡️ Core 24 Mandatory Always-Active Skills (Enforced on Every Operation)
 
-Regardless of the specific task or domain, the following 22 foundational skills are **PERMANENTLY ACTIVE** across all turns:
+Regardless of the user prompt or domain, the following 24 foundational skills are **PERMANENTLY ACTIVE**:
+1. `token-budget-advisor`: Real-time context budget calculation & prompt condensation.
+2. `compact-conversation`: Intelligent compression of conversation history without losing critical decisions.
+3. `ai-session-optimizer`: Minimizes turn roundtrips and optimizes latency.
+4. `prompt-caching-strategy`: Exploits prompt prefix caching for dramatic token reduction.
+5. `clean-code`: Direct, pragmatic implementation without over-engineering or AI comments.
+6. `anti-slop-ui`: Enforces high-craft aesthetic standards and blocks generic AI styles.
+7. `memory-safety-patterns`: Stack vs heap discipline, memory leak avoidance, safe resource release.
+8. `file-system-memory`: Long-term state and memory persistence using local files rather than chat history.
+9. `error-handling-patterns`: Resilient exception handling and graceful recovery protocols.
+10. `verification-loop`: Mandatory compile/run/test validation before completing tasks.
+11. `gateguard`: Fact-forcing gate requiring proof of interfaces before modification.
+12. `zero-hallucination-coder`: Strict rule against guessing commands, imports, or file locations.
+13. `code-simplification`: Complexity reduction and entropy minimization.
+14. `security-best-practices`: Secret protection, credential isolation, and secure shell escaping.
+15. `universal-skill-router`: Dynamic automatic dispatch to relevant domain expert skills.
+16. `session-guard`: State consistency across interruptions, reboots, and agent handoffs.
+17. `work_efficiently`: Parallel execution of independent tool calls in a single turn.
+18. `git-safety-net`: Atomic, cleanly structured commits for easy rollback.
+19. `locked-references`: Protection of user requirements, constants, and business constraints.
+20. `written-gates-generation`: Clear milestones and measurable acceptance criteria.
+21. `inferssd`: Memory-mapped offloading for heavy local AI and data tasks.
+22. `typegpu`: Type-safe hardware execution standards.
+23. `continuous-learning`: Instinct memory from user feedback & error corrections so the agent never repeats mistakes.
+24. `planning-with-files`: Crash-proof persistent file-based planning and state checkpoints (TASK.md/plan.md).
 
-1. **`token-budget-advisor`**: Continuously monitors context limits, prevents context window bloat, and optimizes message conciseness.
-2. **`compact-conversation`**: Dynamically compacts redundant dialogue and tool outputs while retaining 100% of architectural decisions and state.
-3. **`ai-session-optimizer`**: Minimizes turn roundtrips, enforces batched parallel tool calls, and eliminates idle turns.
-4. **`prompt-caching-strategy`**: Exploits prompt prefix caching to maximize cache hits and minimize token costs.
-5. **`clean-code`**: Pragmatic, direct, standard-library-first code. No gratuitous abstractions, no conversational inline comments.
-6. **`anti-slop-ui`**: Strictly prohibits generic AI aesthetics (cookie-cutter rounded buttons, purple glowing cards, unstyled typography).
-7. **`memory-safety-patterns`**: Enforces strict allocation discipline, stack vs heap optimization, and leak prevention.
-8. **`file-system-memory`**: Uses disk files and structured JSON state for persistent memory across sessions rather than context pollution.
-9. **`error-handling-patterns`**: Resilient exception handling, exponential backoff, and graceful degradation on failure.
-10. **`verification-loop`**: Mandatory compile/run/diff validation before marking tasks complete. Never declare victory without passing tests.
-11. **`gateguard`**: Fact-forcing gate that stops unverified edits until existing interfaces and dependencies are inspected.
-12. **`zero-hallucination-coder`**: Strict rule against guessing APIs, package names, or file paths. Always inspect files first.
-13. **`code-simplification`**: Relentlessly reduces complexity and cyclomatic depth; simplifies architecture wherever possible.
-14. **`security-best-practices`**: Secret protection, credential isolation, and safe shell command execution.
-15. **`universal-skill-router`**: The brain that dynamically matches and loads specialized skills based on task context.
-16. **`session-guard`**: Preserves execution state across agent handoffs, system restarts, and long-running workflows.
-17. **`work_efficiently`**: Issues all independent tool calls in parallel within a single turn. Never one call per turn.
-18. **`git-safety-net`**: Creates atomic, well-described conventional commits and preserves rollback capability.
-19. **`locked-references`**: Strictly adheres to user-locked constraints, constants, and business domain boundaries without drift.
-20. **`written-gates-generation`**: Establishes clear milestones and measurable acceptance criteria before code execution.
-21. **`inferssd`**: Expert dynamic streaming and low-memory offloading patterns for heavy local models.
-22. **`typegpu`**: Type-safe hardware execution standards for modern compute and WebGPU shaders.
 
----
-
-## 📚 Master Index Reference
-- Full Markdown Directory: `skills_index.md`
-- Searchable JSON Manifest: `skills_manifest.json`
-- Router Search Utility: `skill_router.py`
