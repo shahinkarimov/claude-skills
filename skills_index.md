@@ -1,6 +1,6 @@
 # 🧠 Master Skill Catalog & Universal Auto-Router Index
 
-Total Active Skills: **4091**
+Total Active Skills: **4093**
 
 This catalog is the single source of truth for all skills available to AI agents (Claude Code, Antigravity, Cursor, Codex). When executing any task, the Universal Auto-Router matches the exact skills, loads their instructions, and enforces production guardrails.
 
@@ -3582,7 +3582,7 @@ This catalog is the single source of truth for all skills available to AI agents
 | **`youtube-seo`** | Turns a product demo, tutorial, or audit recording into 2 YouTube title options, a Key Moments description with `00:00` chapters phrased as searchable sub-steps, a matching X and LinkedIn launch post, and a `VideoObject` JSON-LD embed on the matching blog post, all written to the user's repo. Use wh | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/youtube-seo/SKILL.md) |
 
 
-## 🤖 AI Agents, Swarms & Orchestration (567 skills)
+## 🤖 AI Agents, Swarms & Orchestration (569 skills)
 
 | Skill Name | Description | Link |
 | :--- | :--- | :--- |
@@ -3861,6 +3861,8 @@ This catalog is the single source of truth for all skills available to AI agents
 | **`hermes-tweet`** | Install and operate Hermes Tweet, a Hermes Agent plugin for X/Twitter research, timeline reading, tweet analysis, and approval-gated private or state-changing operations. Use this skill when installing Hermes Tweet, researching X/Twitter accounts, monitoring launch signals, investigating mentions, a | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/hermes-tweet/SKILL.md) |
 | **`hexagonal-architecture`** | Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services. Use when introducing or refactoring toward Ports and Adapters, or when domain logic has become entangled  | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/hexagonal-architecture/SKILL.md) |
 | **`hivemind`** | Use when delegating grunt work to free opencode workers instead of spending Claude tokens: one worker or a scout, coder and tester swarm in worktrees. Triggers on 'spawn a worker', 'swarm', 'delegate to opencode' or /oc. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/hivemind/SKILL.md) |
+| **`hokkaido`** | Hokkaido 0.7.0 Nintendo Switch 2 Dual-Engine Emulator & Banana Native Execution Architecture for Android. Guide to building, configuring, driver injection (Mesa RADV/Adreno), game profile optimization, and AGENTS.md diagnostic switches. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/hokkaido/SKILL.md) |
+| **`hokkaido-switch2-android`** | Hokkaido 0.7.0 Nintendo Switch 2 Dual-Engine Emulator & Banana Native Execution Architecture for Android. Guide to building, configuring, driver injection (Mesa RADV/Adreno), game profile optimization, and AGENTS.md diagnostic switches. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/hokkaido-switch2-android/SKILL.md) |
 | **`hook-development`** | This skill should be used when the user asks to "create a hook", "add a PreToolUse/PostToolUse/Stop hook", "validate tool use", "implement prompt-based hooks", "use ${CLAUDE_PLUGIN_ROOT}", "set up event-driven automation", "block dangerous commands", or mentions hook events (PreToolUse, PostToolUse, | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/hook-development/SKILL.md) |
 | **`hookify-rules`** | Create and configure hookify rules — markdown files with YAML frontmatter that match bash, file, prompt, or stop events by regex or conditions and show warn/block messages to the agent. Use when creating a hookify rule, writing hook rule syntax, configuring hookify, or adding pattern guardrails such | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/hookify-rules/SKILL.md) |
 | **`hub-init`** | Use for /hub-init, or to start an AgentHub competition: task, agent count and evaluation criteria. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/hub-init/SKILL.md) |

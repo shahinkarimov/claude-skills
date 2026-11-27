@@ -10278,6 +10278,18 @@
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/hmdb-database/SKILL.md"
   },
   {
+    "name": "hokkaido",
+    "description": "Hokkaido 0.7.0 Nintendo Switch 2 Dual-Engine Emulator & Banana Native Execution Architecture for Android. Guide to building, configuring, driver injection (Mesa RADV/Adreno), game profile optimization, and AGENTS.md diagnostic switches.",
+    "category": "🤖 AI Agents, Swarms & Orchestration",
+    "path": "C:/Users/shahin.karimov/.gemini/config/skills/hokkaido/SKILL.md"
+  },
+  {
+    "name": "hokkaido-switch2-android",
+    "description": "Hokkaido 0.7.0 Nintendo Switch 2 Dual-Engine Emulator & Banana Native Execution Architecture for Android. Guide to building, configuring, driver injection (Mesa RADV/Adreno), game profile optimization, and AGENTS.md diagnostic switches.",
+    "category": "🤖 AI Agents, Swarms & Orchestration",
+    "path": "C:/Users/shahin.karimov/.gemini/config/skills/hokkaido-switch2-android/SKILL.md"
+  },
+  {
     "name": "homelab-network-readiness",
     "description": "Readiness checklist for homelab VLAN segmentation, local DNS filtering (Pi-hole, AdGuard Home), and WireGuard-style remote access. Use when planning or reviewing home network changes — splitting a flat network into trusted, IoT, guest, or management VLANs, moving DHCP to a local resolver, or adding ",
     "category": "⚙️ Specialized Engineering & Utilities",
