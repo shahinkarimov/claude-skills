@@ -1,5 +1,7 @@
 # Universal Skill Router & Auto-Activation Rules
 
+> **İSTİFADƏÇİ PREFERENSİYASI:** İstifadəçi (Şahin Kərimov) heç vaxt terminalda əmr yazmır; yalnız çat pəncərəsində təbii dildə yazır. Bütün terminal komandaları, skript icraları, testlər, git və brauzer əməliyyatları agent tərəfindən arxa planda 100% avtonom icra olunmalıdır.
+
 The workstation hosts a curated suite of **4,096 expert skills**.
 
 ## 🛡️ Core 24 Mandatory Always-Active Skills (Enforced on Every Operation)
