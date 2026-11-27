@@ -24174,10 +24174,22 @@
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/wordpress-penetration-testing/SKILL.md"
   },
   {
+    "name": "work-efficiently",
+    "description": "Mandatory core discipline for parallel tool execution, zero roundtrip latency, batch operations, and single-turn verification.",
+    "category": "⚙️ Specialized Engineering & Utilities",
+    "path": "C:/Users/shahin.karimov/.gemini/config/skills/work-efficiently/SKILL.md"
+  },
+  {
     "name": "work-with-pr",
     "description": "Full PR lifecycle in a fresh task-owned git worktree: implement via the ulw-loop skill with mandatory evidence-bound manual QA → reviewer-readable English PR → verification loop (CI + Cubic, where Cubic is skipped only when its quota is exhausted) → merge by default → worktree cleanup. Decomposes on",
     "category": "🤖 AI Agents, Swarms & Orchestration",
     "path": "C:/Users/shahin.karimov/.gemini/config/skills/work-with-pr/SKILL.md"
+  },
+  {
+    "name": "work_efficiently",
+    "description": "Mandatory core discipline for parallel tool execution, zero roundtrip latency, batch operations, and single-turn verification.",
+    "category": "⚙️ Specialized Engineering & Utilities",
+    "path": "C:/Users/shahin.karimov/.gemini/config/skills/work_efficiently/SKILL.md"
   },
   {
     "name": "worker-visualizer",

@@ -1,6 +1,6 @@
 # 🧠 Master Skill Catalog & Universal Auto-Router Index
 
-Total Active Skills: **4089**
+Total Active Skills: **4091**
 
 This catalog is the single source of truth for all skills available to AI agents (Claude Code, Antigravity, Cursor, Codex). When executing any task, the Universal Auto-Router matches the exact skills, loads their instructions, and enforces production guardrails.
 
@@ -675,7 +675,7 @@ This catalog is the single source of truth for all skills available to AI agents
 | **`zinc-database`** | Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/zinc-database/SKILL.md) |
 
 
-## ⚙️ Specialized Engineering & Utilities (992 skills)
+## ⚙️ Specialized Engineering & Utilities (994 skills)
 
 | Skill Name | Description | Link |
 | :--- | :--- | :--- |
@@ -1659,6 +1659,8 @@ This catalog is the single source of truth for all skills available to AI agents
 | **`wireframe-portal-title`** | A wireframe portal bursts open, the title comes through, then its letters swap into a second phrase. HyperFrames block, 1920×1080, 8s, 9 variables. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/wireframe-portal-title/SKILL.md) |
 | **`wireframe-sketch`** | A hand-drawn wireframe exploration — graph-paper background, marker / pencil tone, multiple tab labels for variants, sticky-note annotations, scribbled chart placeholders, hatched fills. Reads like a designer's whiteboard before any pixels are committed. Use when the brief asks for "wireframe", "ske | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/wireframe-sketch/SKILL.md) |
 | **`wireshark-analysis`** | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow TCP/UDP streams", "detect network anomalies", "investigate suspicious traffic", or "perform protocol analysis". It provides comprehensive tech | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/wireshark-analysis/SKILL.md) |
+| **`work-efficiently`** | Mandatory core discipline for parallel tool execution, zero roundtrip latency, batch operations, and single-turn verification. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/work-efficiently/SKILL.md) |
+| **`work_efficiently`** | Mandatory core discipline for parallel tool execution, zero roundtrip latency, batch operations, and single-turn verification. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/work_efficiently/SKILL.md) |
 | **`worktree-cleaner`** | Inventory the git worktrees of the current repository, classify each one with evidence (merged, PR state, uncommitted or unpushed work, locked, stale, in use by a running session) and remove them one at a time or by group, always asking the user first and verifying every removal. Use when worktrees  | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/worktree-cleaner/SKILL.md) |
 | **`wpds`** | WordPress Design System. Apply WordPress's official design tokens, typography, and component patterns to themes and sites. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/wpds/SKILL.md) |
 | **`writing-clearly-and-concisely`** | Use when writing prose humans will read—documentation, commit messages, error messages, explanations, reports, or UI text. Applies Strunk's timeless rules for clearer, stronger, more professional writing. | [`SKILL.md`](file:///C:/Users/shahin.karimov/.gemini/config/skills/writing-clearly-and-concisely/SKILL.md) |
