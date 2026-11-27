@@ -7,51 +7,83 @@ SKILLS_DIR = Path("C:/Users/shahin.karimov/.gemini/config/skills")
 OUTPUT_JSON = Path("C:/Users/shahin.karimov/.gemini/config/skills_manifest.json")
 OUTPUT_MD = Path("C:/Users/shahin.karimov/.gemini/config/skills_index.md")
 
-# Categories mapping
+# Comprehensive Category Taxonomy
 CATEGORIES = {
-    "AI Agents & Automation": [
-        "agent", "browser-use", "ufo", "composio", "superpowers", "playwright",
-        "scrape", "workflow", "orchestrat", "subagent", "autonomous", "automation"
+    "🤖 AI Agents, Swarms & Orchestration": [
+        "agent", "swarm", "orchestrat", "subagent", "autonomous", "browser-use",
+        "ufo", "composio", "superpowers", "openclaw", "crewai", "langchain", "autogen", "copilotkit"
     ],
-    "Web Frontend & UI/UX": [
+    "🎨 Web Frontend, UI/UX & Design Systems": [
         "react", "next", "vue", "tailwind", "css", "html", "ui-ux", "taste-skill",
         "frontend", "animation", "motion", "d3", "canvas", "shadcn", "threejs",
-        "design-system", "deck", "presentation", "svg", "web-design", "icon", "dashboard"
+        "design-system", "deck", "presentation", "svg", "web-design", "icon", "dashboard",
+        "anti-slop", "lucide", "rough-js", "figma"
     ],
-    "Backend, APIs & Databases": [
+    "☁️ Backend, APIs, Cloud & Databases": [
         "api", "graphql", "rest", "backend", "fastapi", "django", "node", "express",
         "postgres", "supabase", "redis", "database", "sql", "bigquery", "docker",
-        "kubernetes", "terraform", "auth", "jwt", "oauth", "stripe", "payment"
+        "kubernetes", "terraform", "auth", "jwt", "oauth", "stripe", "payment",
+        "rabbitmq", "kafka", "cdc", "grpc", "websockets"
     ],
-    "Mobile & Multiplatform": [
+    "🛡️ Cybersecurity, Pentesting & Vulnerability Audits": [
+        "security", "audit", "pentest", "vulnerability", "attack", "exploit",
+        "hunt-", "offensive-", "idor", "xss", "sqli", "rce", "ssrf", "strix",
+        "red-team", "threat", "soc2", "compliance", "privesc"
+    ],
+    "🎬 Media, Video, Audio & Image AI": [
+        "video", "audio", "image", "speech", "tts", "whisper", "remotion", "ffmpeg",
+        "yt-dlp", "elevenlabs", "suno", "runway", "stable-diffusion", "midjourney",
+        "dall-e", "opencut", "funclip", "clipsai", "whisperx", "opencv"
+    ],
+    "⚡ Automation, Workflows & Tools": [
+        "automation", "workflow", "-automation", "n8n", "zapier", "make-com",
+        "slack", "discord", "gmail", "notion", "airtable", "scrape", "tavily",
+        "firecrawl", "crawler", "playwright", "puppeteer"
+    ],
+    "📈 Trading, Finance & Algorithmic Markets": [
+        "trading", "trade", "stock", "screener", "finance", "crypto", "dividend",
+        "backtest", "finviz", "trendspider", "metatrader", "futures", "options"
+    ],
+    "📱 Mobile & Multiplatform Development": [
         "flutter", "dart", "react-native", "expo", "android", "swift", "ios",
-        "xcode", "compose", "mobile"
+        "xcode", "compose", "mobile", "tauri", "electron", "pake"
     ],
-    "Game Development": [
+    "🎮 Game Development & 3D": [
         "game", "godot", "unity", "unreal", "phaser", "pixi", "pygame", "bevy",
-        "defold", "love2d", "shader", "tilemap", "ecs", "roblox", "3d", "character"
+        "shader", "tilemap", "ecs", "3d", "blender", "pixelfx", "typegpu"
     ],
-    "Code Quality, Testing & DevOps": [
-        "test", "tdd", "e2e", "qa", "review", "git", "deploy", "vercel", "cloudflare",
-        "ci", "lint", "debug", "benchmark", "performance", "audit", "security", "threat"
+    "🧠 Core System, Memory & Optimization Guardrails": [
+        "token-budget", "compact-conversation", "ai-session", "prompt-caching",
+        "clean-code", "memory-safety", "file-system-memory", "error-handling",
+        "verification-loop", "zero-hallucination", "code-simplification",
+        "session-guard", "universal-skill-router", "gateguard", "locked-references"
     ],
-    "Data Science, ML & Analytics": [
+    "🔬 Data Science, ML & Specialized Engineering": [
         "ml", "data", "spark", "dbt", "dataform", "bigframes", "analytics",
-        "eval", "vector", "rag", "notebook", "statistics", "science", "biology"
-    ],
-    "Content, SEO & Marketing": [
-        "seo", "ads", "copywriting", "youtube", "article", "social", "brand",
-        "content", "marketing", "changelog", "documentation", "doc", "epub", "pdf"
+        "eval", "vector", "rag", "notebook", "statistics", "biology", "genom",
+        "protein", "inferssd", "quantisation", "llama-cpp", "gguf", "deepseek"
     ]
 }
 
+CORE_22_SET = {
+    "token-budget-advisor", "compact-conversation", "ai-session-optimizer",
+    "prompt-caching-strategy", "clean-code", "anti-slop-ui",
+    "memory-safety-patterns", "file-system-memory", "error-handling-patterns",
+    "verification-loop", "gateguard", "zero-hallucination-coder",
+    "code-simplification", "security-best-practices", "universal-skill-router",
+    "session-guard", "work_efficiently", "work-efficiently", "git-safety-net",
+    "locked-references", "written-gates-generation", "inferssd", "typegpu"
+}
+
 def classify(name: str, desc: str) -> str:
+    if name in CORE_22_SET or name.replace("_", "-") in CORE_22_SET:
+        return "🧠 Core 22 Mandatory Guardrails & System Optimization"
     combined = (name + " " + desc).lower()
     for cat, keywords in CATEGORIES.items():
         for kw in keywords:
-            if re.search(r'\b' + re.escape(kw) + r'\b', combined):
+            if kw in combined:
                 return cat
-    return "Specialized & Miscellaneous"
+    return "⚙️ Specialized Engineering & Utilities"
 
 def main():
     skills = []
@@ -76,12 +108,10 @@ def main():
                     desc_match = re.search(r'description:\s*(?:[>|]-?\s*)?(.*?)(?=\n[a-zA-Z0-9_-]+:|\Z)', fm, re.DOTALL)
                     if desc_match:
                         raw_desc = desc_match.group(1).strip()
-                        # Clean up multiline
                         desc = " ".join([line.strip() for line in raw_desc.splitlines() if line.strip()])
                         desc = desc.strip('"\'')
             
             if not desc:
-                # Extract first paragraph after # header
                 lines = content.splitlines()
                 for line in lines:
                     line = line.strip()
@@ -93,7 +123,7 @@ def main():
             
             skills.append({
                 "name": name,
-                "description": desc[:300] if desc else "Specialized agent skill.",
+                "description": desc[:300] if desc else f"Specialized skill for {name}.",
                 "category": category,
                 "path": str(skill_md).replace("\\", "/")
             })
@@ -107,16 +137,21 @@ def main():
         json.dump(skills, f, indent=2, ensure_ascii=False)
     print(f"Saved manifest to {OUTPUT_JSON}")
     
+    # Also save copy to repo
+    repo_manifest = Path("C:/Users/shahin.karimov/claude-skills/skills_manifest.json")
+    with open(repo_manifest, "w", encoding="utf-8") as f:
+        json.dump(skills, f, indent=2, ensure_ascii=False)
+    
     # Write Markdown index
     by_category = {}
     for s in skills:
         by_category.setdefault(s["category"], []).append(s)
         
     md_lines = [
-        "# Master Skill Catalog & Router Index",
+        "# 🧠 Master Skill Catalog & Universal Auto-Router Index",
         f"\nTotal Active Skills: **{len(skills)}**\n",
-        "This directory is the single source of truth for all skills available to Antigravity agents. "
-        "When executing a task, reference this index to locate the exact skill, then read its `SKILL.md` before taking action.\n"
+        "This catalog is the single source of truth for all skills available to AI agents (Claude Code, Antigravity, Cursor, Codex). "
+        "When executing any task, the Universal Auto-Router matches the exact skills, loads their instructions, and enforces production guardrails.\n"
     ]
     
     for cat, items in sorted(by_category.items()):
@@ -131,7 +166,10 @@ def main():
         md_lines.append("\n")
         
     OUTPUT_MD.write_text("\n".join(md_lines), encoding="utf-8")
-    print(f"Saved Markdown index to {OUTPUT_MD}")
+    
+    repo_index = Path("C:/Users/shahin.karimov/claude-skills/skills_index.md")
+    repo_index.write_text("\n".join(md_lines), encoding="utf-8")
+    print(f"Saved Markdown index to {OUTPUT_MD} and {repo_index}")
 
 if __name__ == "__main__":
     main()
